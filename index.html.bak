@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anik Sen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="intro">
+            <img src="profile.jpg" alt="Anik Sen">
+            <h1>Anik Sen</h1>
+			<h2>Currently Working on a FRGS Project as a Graduate Research Assistant at MMU, Malacca, Malaysia.</h2>
+            <p><h3>Master of Computing(By Research)| Teacher & Researcher| Information Security, Machine Learning, Artificial Intelligence</h3></p>
+            <p>Email: <a href="mailto:aniksen360@gmail.com">aniksen360@gmail.com</a></p>
+            <p>Phone: +880 01682567372 | +60 1112679199</p>
+            <p>WhatsApp: +8801796986151</p>
+            <p><a href="https://www.facebook.com/senanik360/">Facebook</a> | <a href="https://www.linkedin.com/in/senanik360/">LinkedIn</a></p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am pursuing my Master of Computing (by research) at Multimedia University, Melaka, Malaysia. I am working on a project funded by FRGS. I completed my Bachelor of Science in Computer Science & Engineering, specializing in Software Engineering, at American International University-Bangladesh (AIUB). My research interest areas are Information Security, Machine Learning, and Artificial Intelligence.</p>
+    </section>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <h3>Graduate Research Assistant</h3>
+            <p>Multimedia University, Melaka, Malaysia (05/2024 – Current)</p>
+        </div>
+        <div class="job">
+            <h3>Computer Science Teacher</h3>
+            <p>Canadian Trillinium International School (09/2023 – 02/2024)</p>
+            <ul>
+                <li>Programming in Python (Grade 9)</li>
+                <li>Programming in C++ (Grade 10)</li>
+                <li>Cyber Security & Technical Support (Grade 11 & 12)</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Research Assistant</h3>
+            <p>Artificial Intelligence Research and Innovation Lab (AIRIL) (09/2023 – 01/2024)</p>
+        </div>
+        <div class="job">
+            <h3>Research Assistant Intern (Remote)</h3>
+            <p>Kishor Academy, Jamaica, New York, USA (08/2023 – 11/2023)</p>
+        </div>
+        <div class="job">
+            <h3>Cloud Computing Trainee</h3>
+            <p>eTech Solution Ltd. (06/2023 – 09/2023)</p>
+        </div>
+        <div class="job">
+            <h3>Communications Intern (Remote)</h3>
+            <p>Youth School for Social Entrepreneurs (YSSE) (03/2023 – 08/2023)</p>
+        </div>
+        <div class="job">
+            <h3>QA Functional Testing Intern (Remote)</h3>
+            <p>a1qa, Minsk, Belarus (04/2023 – 05/2023)</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Master of Computing (by research)</h3>
+            <p>Multimedia University, Melaka, Malaysia (2024 – Current)</p>
+            <p>Field of Study: Information Technology</p>
+            <p>Thesis: Design and Analysis of Cryptographically Secure Data Sharing Protocol for Cyber-Physical Cloud Environment</p>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Science in Computer Science & Engineering</h3>
+            <p>American International University-Bangladesh (2020 – 2023)</p>
+            <p>Field of Study: Computer Science & Engineering (Software Engineering)</p>
+        </div>
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>Find out the innovative techniques of data sharing using cryptography by systematic literature review. <em>Turkish Journal of Computer and Mathematics Education (TURCOMAT)</em>, 14.03 (2023): 216-224.</li>
+            <li>Identification of Human Movement Through a Novel Machine Learning Approach. <em>2023 Innovations in Power and Advanced Computing Technologies (i-PACT)</em>, Kuala Lumpur, Malaysia, 2023.</li>
+            <li>An Integrated Review of Machine Learning and Blockchain Technology in Secured Smart City. <em>2022 International Conference on Data Science and Emerging Technologies (DaSET)</em>, Dhaka, Bangladesh, 2022.</li>
+            <li>An Integrated Review of Deep Learning Techniques on Intrusion Detection Systems. <em>Journal of Applied Science and Engineering</em>, 25.2 (2022): 377-390.</li>
+            <li>An Integrated Review on Blockchain and IoT-based Secured Framework for Data Management Systems. <em>2022 4th International Conference on Advances in Science & Technology (ICAST)</em>, Dhaka, Bangladesh, 2022.</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, C++, Java, C#, Python, JavaScript, PHP</li>
+            <li>Backend Framework: ASP.NET</li>
+            <li>Web Technologies: HTML5, CSS3, Bootstrap5</li>
+            <li>Database Management: MySQL, MS SQL, PL SQL</li>
+            <li>Software Testing: Selenium with Java</li>
+        </ul>
+    </section>
+    <section id="awards">
+        <h2>Awards</h2>
+        <ul>
+            <li>FST Dean's List Honor [Five Times]</li>
+            <li>Emerging Leader Award 2024</li>
+            <li>High Achiever Research Scholarship for Postgraduate Programs</li>
+            <li>Academic Distinction Award 2020-21</li>
+            <li>Pro Vice Chancellor Award 2018-19</li>
+            <li>Talent Scholarship Award 2015-16</li>
+            <li>Gold Medal for Academic Excellence 2012-13</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anik Sen. All rights reserved.</p>
+    </footer>
+</body>
+</html>

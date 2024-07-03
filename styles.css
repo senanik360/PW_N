@@ -1,0 +1,208 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+header nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+header nav ul li a:hover {
+    color: #333;
+    text-shadow: 0 0 10px #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+section:hover {
+    transform: scale(1.05);
+}
+
+section p, section ul, section form {
+    color: #555;
+}
+
+/* Individual Section Colors */
+.intro {
+    background-color: #e3f2fd; /* Light Blue */
+}
+
+.jobs {
+    background-color: #ffebee; /* Light Red */
+}
+
+.education {
+    background-color: #e8f5e9; /* Light Green */
+}
+
+.publications {
+    background-color: #fff3e0; /* Light Orange */
+}
+
+.skills {
+    background-color: #f3e5f5; /* Light Purple */
+}
+
+.contact {
+    background-color: #e0f7fa; /* Light Cyan */
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.intro p {
+    margin: 5px 0;
+}
+.intro img:hover {
+    transform: scale(1.1);
+}
+
+/* Job and Education Styles */
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.job p, .education-item p, .job ul {
+    margin: 5px 0;
+    color: #555;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+/* Publications and Skills */
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ADD8E6; /* Light Blue */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
