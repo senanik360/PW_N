@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Anik Sen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Scoped Styles */
+      #blog {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .blog-entry {
+        margin-bottom: 40px;
+      }
+
+      .blog-meta {
+        font-size: 0.9em;
+        color: #777;
+        margin-bottom: 10px;
+      }
+
+      .blog-meta span {
+        display: block;
+      }
+
+      .blog-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .blog-images img {
+        max-width: calc(50% - 10px);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .blog-content {
+        font-size: 1em;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      form {
+        margin-top: 40px;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      form label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 16px;
+      }
+
+      form button {
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      form button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="blog">
+      <h2>Blogs</h2>
+      <div class="blog-entry">
+        <h3>Blog Title 1</h3>
+        <div class="blog-meta">
+          <span>Date: 2024-07-01</span>
+          <span>Time: 10:00 AM</span>
+          <span>Location: New York</span>
+        </div>
+        <div class="blog-images">
+          <img src="image1.jpg" alt="Blog Image 1" />
+          <img src="image2.jpg" alt="Blog Image 2" />
+        </div>
+        <div class="blog-content">
+          <p>
+            This is the content of the first blog post. It's a brief overview of
+            the topic discussed in the blog.
+          </p>
+        </div>
+      </div>
+      <div class="blog-entry">
+        <h3>Blog Title 2</h3>
+        <div class="blog-meta">
+          <span>Date: 2024-06-20</span>
+          <span>Time: 02:00 PM</span>
+          <span>Location: London</span>
+        </div>
+        <div class="blog-images">
+          <img src="image3.jpg" alt="Blog Image 3" />
+          <img src="image4.jpg" alt="Blog Image 4" />
+        </div>
+        <div class="blog-content">
+          <p>
+            This is the content of the second blog post. Another brief overview
+            of a different topic discussed in this blog.
+          </p>
+        </div>
+      </div>
+      <form action="submit_blog.php" method="post">
+        <label for="title">Blog Title:</label>
+        <input type="text" id="title" name="title" required />
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required />
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required />
+        <label for="images">Images:</label>
+        <input type="file" id="images" name="images[]" multiple />
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+        <button type="submit">Upload Blog</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 Anik Sen. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
