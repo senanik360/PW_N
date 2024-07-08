@@ -23,7 +23,7 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 header nav ul li a {
@@ -54,8 +54,8 @@ header nav ul li a:hover::after {
 }
 
 header nav ul li a:hover {
-    color: #333;
-    text-shadow: 0 0 10px #fff;
+    color: #530404;
+    text-shadow: 0 0 20px #fff;
 }
 /* Existing styles remain the same */
 
@@ -68,6 +68,7 @@ header nav ul li a:hover {
     background-color: #0b2f3c; /* Same as header background */
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6%;
   }
   
   .side-nav ul {
@@ -77,7 +78,7 @@ header nav ul li a:hover {
   }
   
   .side-nav ul li {
-    margin: 28px 0;
+    margin: 23px 0;
   }
   
   .side-nav ul li a {
