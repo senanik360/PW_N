@@ -202,21 +202,29 @@ section ul li {
 
 .gallery {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
 
-.gallery img {
-    margin: 10px;
-    width: 300px;
+.gallery figure {
+    flex: 1 1 calc(33% - 10px); /* Adjusted for three columns */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.gallery figure img {
+    width: 100%;
     height: 250px;
     object-fit: cover;
-    transition: all 0.3s ease;
     border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
-.gallery img:hover {
-    transform: scale(1.1);
+.gallery figure:hover {
+    transform: scale(1.05);
 }
 /* Contact Form */
 form {
@@ -315,6 +323,9 @@ footer {
     .gallery img {
         width: 100%;
         height: auto;
+    }
+    .gallery figure {
+        flex: 1 1 100%; /* Stacks the items on smaller screens */
     }
 
     form {
